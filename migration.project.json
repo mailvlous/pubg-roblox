@@ -1,0 +1,135 @@
+{
+  "name": "pubg_roblox",
+  "tree": {
+    "$className": "DataModel",
+    "Lighting": {
+      "$properties": {
+        "Ambient": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Brightness": 2.0,
+        "ColorShift_Bottom": [
+          0.3137255012989044,
+          0.19607843458652496,
+          0.0784313753247261
+        ],
+        "ColorShift_Top": [
+          0.19607843458652496,
+          0.11764705926179886,
+          0.0
+        ],
+        "EnvironmentDiffuseScale": 1.0,
+        "EnvironmentSpecularScale": 1.0,
+        "FogColor": [
+          0.7529411911964417,
+          0.686274528503418,
+          0.5882353186607361
+        ],
+        "FogEnd": 800.0,
+        "FogStart": 200.0,
+        "GeographicLatitude": 0.0,
+        "GlobalShadows": true,
+        "OutdoorAmbient": [
+          0.5490196347236633,
+          0.47058823704719543,
+          0.3921568691730499
+        ],
+        "Outlines": false,
+        "PrioritizeLightingQuality": true,
+        "Technology": "ShadowMap",
+        "TimeOfDay": "16:00:00"
+      },
+      "$path": "src/Lighting"
+    },
+    "MaterialService": {
+      "$properties": {
+        "Use2022MaterialsXml": true
+      },
+      "$path": "src/MaterialService"
+    },
+    "ReplicatedStorage": {
+      "$path": "src/ReplicatedStorage"
+    },
+    "ServerScriptService": {
+      "$path": "src/ServerScriptService"
+    },
+    "ServerStorage": {
+      "$path": "src/ServerStorage"
+    },
+    "SoundService": {
+      "$properties": {
+        "DefaultListenerLocation": "Camera",
+        "RespectFilteringEnabled": true
+      },
+      "$path": "src/SoundService"
+    },
+    "StarterGui": {
+      "$properties": {
+        "ScreenOrientation": "Sensor"
+      },
+      "$path": "src/StarterGui"
+    },
+    "StarterPack": {
+      "$path": "src/StarterPack"
+    },
+    "StarterPlayer": {
+      "$properties": {
+        "AvatarJointUpgrade": "Enabled",
+        "CameraMaxZoomDistance": 128.0,
+        "CharacterBreakJointsOnDeath": false,
+        "CharacterUseJumpPower": false,
+        "GameSettingsAvatar": "R6"
+      },
+      "$path": "src/StarterPlayer"
+    },
+    "Teams": {
+      "$path": "src/Teams"
+    },
+    "TextChatService": {
+      "$properties": {
+        "ChatVersion": "TextChatService",
+        "IsLegacyChatDisabled": true
+      },
+      "$path": "src/TextChatService"
+    },
+    "Workspace": {
+      "$properties": {
+        "SignalBehavior": "Deferred",
+        "StreamOutBehavior": "Opportunistic",
+        "StreamingIntegrityMode": "PauseOutsideLoadedArea",
+        "WorldPivotData": {
+          "OptionalCFrame": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "orientation": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          }
+        }
+      },
+      "$attributes": {
+        "Rojo_Target_CurrentCamera": "7cc681ce81e2af070a37d7250000089a"
+      },
+      "$path": "src/Workspace"
+    }
+  }
+}
